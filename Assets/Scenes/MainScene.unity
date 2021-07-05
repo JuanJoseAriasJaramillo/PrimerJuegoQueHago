@@ -902,8 +902,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559897336}
-  m_LocalRotation: {x: 0.031909093, y: 0.96588045, z: 0.21193586, w: -0.14539596}
-  m_LocalPosition: {x: -14.330982, y: 3.1956367, z: -41.593185}
+  m_LocalRotation: {x: 0.006027524, y: 0.993971, z: 0.07918773, w: -0.075595394}
+  m_LocalPosition: {x: -41.06351, y: 16.480656, z: -17.475313}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1741,6 +1741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1745801370}
   - component: {fileID: 1745801369}
+  - component: {fileID: 1745801371}
   m_Layer: 0
   m_Name: Test Object
   m_TagString: Untagged
@@ -1755,13 +1756,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745801368}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c89d37ed5eda55b40b6b67fbd60484b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myNumber: 30
-  total: 0
+  number1: 5
+  number2: 8
 --- !u!4 &1745801370
 Transform:
   m_ObjectHideFlags: 0
@@ -1776,6 +1777,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1745801371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745801368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b8e807a29b149949a58a0c5056ba167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1754444595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,8 +2044,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915809451}
-  m_LocalRotation: {x: 0.031909093, y: 0.96588045, z: 0.21193586, w: -0.14539596}
-  m_LocalPosition: {x: -14.330982, y: -4.240324, z: -41.593185}
+  m_LocalRotation: {x: 0.006027524, y: 0.993971, z: 0.07918773, w: -0.075595394}
+  m_LocalPosition: {x: -41.06351, y: 8.080656, z: -17.475313}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2128,7 +2141,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062379664}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07208bba1293b62439604486bdfb1818, type: 3}
   m_Name: 
