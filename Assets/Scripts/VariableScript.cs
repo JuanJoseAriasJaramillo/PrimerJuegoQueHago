@@ -23,7 +23,7 @@ public class VariableScript : MonoBehaviour
         Debug.Log("El objeto ha arrancado");
         AddTwoNumbers(5, 8);
 
-        string myMessage = HelloMe("juan José);
+        string myMessage = HelloMe("juan jose");
         
     }
 
@@ -33,20 +33,16 @@ public class VariableScript : MonoBehaviour
         Debug.Log("El objeto se está actualizando");
         
         if (Input.GetKeyDown(KeyCode.Return)){
-            AddTwoGlobalNumbers(80, 20);
+            AddTwoNumbers(8, 2);
         }
     }    
     void AddTwoGlobalNumbers() {
-        Debug.Log(number1 + number2)
+        Debug.Log(number1 + number2);
     }
     void AddTwoNumbers(int firstNumber, int secondNumber)
     {
         Debug.Log(firstNumber + secondNumber);
-    }
-    string SayHello(string username)
-    {
-
-    }
+    }    
     string HelloMe(string username)
     {
         string message1 = "Bienvenido al curso " + username;
