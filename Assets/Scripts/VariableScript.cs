@@ -21,6 +21,10 @@ public class VariableScript : MonoBehaviour
     void Start()
     {
         Debug.Log("El objeto ha arrancado");
+        AddTwoNumbers(5, 8);
+
+        string myMessage = HelloMe("juan José);
+        
     }
 
     // Update is called once per frame
@@ -29,12 +33,24 @@ public class VariableScript : MonoBehaviour
         Debug.Log("El objeto se está actualizando");
         
         if (Input.GetKeyDown(KeyCode.Return)){
-            AddTwoNumbers();
+            AddTwoGlobalNumbers(80, 20);
         }
+    }    
+    void AddTwoGlobalNumbers() {
+        Debug.Log(number1 + number2)
     }
-    void AddTwoNumbers()
+    void AddTwoNumbers(int firstNumber, int secondNumber)
     {
-        Debug.Log(number1 + number2);
+        Debug.Log(firstNumber + secondNumber);
+    }
+    string SayHello(string username)
+    {
+
+    }
+    string HelloMe(string username)
+    {
+        string message1 = "Bienvenido al curso " + username;
+        return message1;
     }
 }
     
